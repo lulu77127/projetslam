@@ -45,7 +45,7 @@ if($_SESSION['statut'] !== "utilisateur"){
 		
 		<textarea rows="12" cols="63" name="description" form="form ticket" placeholder="Entrez votre Message"></textarea>
 		<div class="form__field">
-        <input type="file" name="file">
+        <input type="file" name="files">
         </div>
       </div>
       <footer class="ticket__footer">

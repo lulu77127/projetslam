@@ -14,24 +14,18 @@ if($_SESSION['statut'] !== "utilisateur"){
   <!---Inclure le Header--->
   <div class="wrapper">
     <section id='article'>
-      <h2>Titre Information</h2>
-      <p>Premier Paragraphe</p>
-      <p>Second Paragraphe</p>
-      <p>Troisième Paragraphe</p>     
+      <h2>Le Titre</h2>
+		<p>Le Texte</p>
     </section>
 	
 	<section id='article'>
-      <h2>Titre Information</h2>
-      <p>Premier Paragraphe</p>
-      <p>Second Paragraphe</p>
-      <p>Troisième Paragraphe</p>     
+      <h2>Le Titre</h2>
+      <p>Le Texte</p>  
     </section>
 	
 	<section id='article'>
-      <h2>Titre Information</h2>
-      <p>Premier Paragraphe</p>
-      <p>Second Paragraphe</p>
-      <p>Troisième Paragraphe</p>     
+      <h2>Le Titre</h2>
+      <p>Le Texte</p> 
     </section>
 	
   </div>
