@@ -102,7 +102,7 @@ input[type='submit'] {
 }
 
 
-.ticket__header {
+.article__header {
   background-color: #282830;
   border-top-left-radius: 0.25em;
   border-top-right-radius: 0.25em;
@@ -112,19 +112,19 @@ input[type='submit'] {
   text-transform: uppercase;
 }
 
-.ticket__title {
+.article__title {
   font-size: 16px;
   font-size: 1rem;
   margin: 0;
 }
 
-.ticket__body {
+.article__body {
   background-color: #fff;
   padding: 1.5em;
   position: relative;
 }
 
-.ticket__body::before {
+.article__body::before {
   background-color: #fff;
   content: '';
   height: 0.5em;
@@ -148,19 +148,19 @@ input[type='submit'] {
   padding: 1em 1.25em;
 }
 
-.ticket input[type='email'],
-.ticket input[type='text'],
-.ticket input[type='password'],
+.article input[type='email'],
+.article input[type='text'],
+.article input[type='password'],
 .form input[type='radio'],
-.ticket option,
-.ticket select,
-.ticket textarea  {
+.article option,
+.article select,
+.article textarea  {
   border-top-left-radius: 0.25em;
   border-top-right-radius: 0.25em;
 }
 
 
-.ticket input[type='submit'] {
+.article input[type='submit'] {
   background-color: #1dabb8;
   border-radius: 0.25em;
   color: #fff;
@@ -173,12 +173,12 @@ input[type='submit'] {
   transition: background-color 0.3s;
 }
 
-.ticket input[type='submit']:focus,
-.ticket input[type='submit']:hover {
+.article input[type='submit']:focus,
+.article input[type='submit']:hover {
   background-color: #198d98;
 }
 
-.ticket__footer {
+.article__footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -196,6 +196,6 @@ input[type='submit'] {
   padding-right: 1.5em;
 }
 
-.ticket__footer p {
+.article__footer p {
   margin: 0;
 }

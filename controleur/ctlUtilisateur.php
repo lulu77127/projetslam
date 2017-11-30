@@ -16,10 +16,10 @@ case 'creationticket':{
 case 'creeinter':{
 		$iduser=$_SESSION['id'];
 		$obj=$_POST['objet'];
-		$desc=$_POST['description'];
+		$desc=$_POST['desc'];
 		$grav=$_POST['gravite'];
 		$lieu=$_POST['lieu'];
-		$ltype=$_POST['type'];
+		$type=$_POST['type'];
 		$idlieu=ModelPersonnel::recupidlieu($lieu);
 		ModelPersonnel::creeinter($obj,$desc,$grav,$type,$iduser,$idlieu[0]);
 		header('Location: index.php');

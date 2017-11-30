@@ -9,7 +9,6 @@ if($_SESSION['statut'] !== "utilisateur"){
     <nav>
       <a href="index.php">Acceuil</a>
       <a href="index.php?ctl=utilisateur&action=creationticket">Rapporter un Incident</a>
-      <a href="">Autre Menu</a>
 	  <a href="vues/disconnect.php">Déconnexion</a>
     </nav>
 </header>

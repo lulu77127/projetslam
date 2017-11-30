@@ -1,3 +1,4 @@
+
 .align {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -13,7 +14,7 @@
 .grid {
   margin-left: auto;
   margin-right: auto;
-  max-width: 36em;
+  max-width: 24em;
   width: 90%;
 }
 
@@ -70,10 +71,6 @@ fieldset {
   margin: 0;
 }
 
-textarea {
-   resize: none;
-}
-
 input {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -91,18 +88,12 @@ input[type='submit'] {
 
 .form input[type='email'],
 .form input[type='text'],
-.form input[type='password'],
-.form textarea {
+.form input[type='password'] {
   width: 100%;
 }
 
-.form option,
-.form select {
-	width: 50%;
-}
 
-
-.ticket__header {
+.addplace__header {
   background-color: #282830;
   border-top-left-radius: 0.25em;
   border-top-right-radius: 0.25em;
@@ -112,19 +103,19 @@ input[type='submit'] {
   text-transform: uppercase;
 }
 
-.ticket__title {
+.addplace__title {
   font-size: 16px;
   font-size: 1rem;
   margin: 0;
 }
 
-.ticket__body {
+.addplace__body {
   background-color: #fff;
   padding: 1.5em;
   position: relative;
 }
 
-.ticket__body::before {
+.addplace__body::before {
   background-color: #fff;
   content: '';
   height: 0.5em;
@@ -140,27 +131,20 @@ input[type='submit'] {
 
 .form input[type='email'],
 .form input[type='text'],
-.form input[type='password'],
-.form option,
-.form select,
-.form textarea {
+.form input[type='password'] {
   border: 0.0625em solid #e5e5e5;
   padding: 1em 1.25em;
 }
 
-.ticket input[type='email'],
-.ticket input[type='text'],
-.ticket input[type='password'],
-.form input[type='radio'],
-.ticket option,
-.ticket select,
-.ticket textarea  {
+.addplace input[type='email'],
+.addplace input[type='text'],
+.addplace input[type='password'] {
   border-top-left-radius: 0.25em;
   border-top-right-radius: 0.25em;
 }
 
 
-.ticket input[type='submit'] {
+.addplace input[type='submit'] {
   background-color: #1dabb8;
   border-radius: 0.25em;
   color: #fff;
@@ -173,12 +157,12 @@ input[type='submit'] {
   transition: background-color 0.3s;
 }
 
-.ticket input[type='submit']:focus,
-.ticket input[type='submit']:hover {
+.addplace input[type='submit']:focus,
+.addplace input[type='submit']:hover {
   background-color: #198d98;
 }
 
-.ticket__footer {
+.addplace__footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -196,6 +180,6 @@ input[type='submit'] {
   padding-right: 1.5em;
 }
 
-.ticket__footer p {
+.addplace__footer p {
   margin: 0;
 }
